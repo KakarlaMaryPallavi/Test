@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Test';
+
+  currentVal="";
+  clickMe(val:any) {
+    this.currentVal = val;
+  }
 }
